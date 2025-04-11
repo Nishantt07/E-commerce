@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="try.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+
+ <div class="checkout-page">
+     <div class="shipping-info">
+        <div class="headerrr">
+            <i class="fas fa-arrow-up logo"></i>
+            <h1>Checkout</h1>
+        </div>
+        <div class="tabs">
+            <label>
+                <input type="radio" name="shipping" checked>
+                <i class="fas fa-truck"></i>
+                <span>Delivery</span>
+            </label>
+            <label>
+                <input type="radio" name="shipping">
+                <i class="fas fa-box"></i>
+                <span>Pick up</span>
+            </label>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="full-name">Full Name <span class="required">*</span></label>
+                <input type="text" id="full-name" placeholder="Enter full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Address <span class="required">*</span></label>
+                <input type="email" id="email" placeholder="Enter address">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number <span class="required">*</span></label>
+                <div class="phone-input">
+                    <select>
+                        <option>🇺🇸 +1</option>
+                        <!-- Add more country codes as needed -->
+                    </select>
+                    <input type="tel" id="phone" placeholder="Enter phone number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="country">Country <span class="required">*</span></label>
+                <select id="country">
+                    <option>Choose country</option>
+                    <!-- Add country options -->
+                </select>
+            </div>
+            <div class="form-group city-state-zip">
+                <div>
+                    <label for="city">City <span class="required">*</span></label>
+                    <input type="text" id="city" placeholder="Enter city">
+                </div>
+                <div>
+                    <label for="state">State <span class="required">*</span></label>
+                    <input type="text" id="state" placeholder="Enter state">
+                </div>
+                <div>
+                    <label for="zip">ZIP Code <span class="required">*</span></label>
+                    <input type="text" id="zip" placeholder="Enter ZIP code">
+                </div>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="terms">
+                <label for="terms">I have read and agree to the Terms and Conditions</label>
+            </div>
+        </form>
+    </div>
+
+
+
+    
+    <div class="cart-review">
+        <h2>Review your cart</h2>
+        <div class="cart-items">
+
+
+        </div>
+        <div class="discount">
+            <input type="text" placeholder="Discount Coupon">
+            <button>Apply</button>
+        </div>
+        <div class="order-summary">
+           
+        </div>
+        <button class="pay-now">Pay Now</button>
+        <div class="security-note">
+            <i class="fas fa-lock"></i> SECURE CHECKOUT - SSL Encrypted
+            <p>Ensuring your financial and personal details are secure during every transaction.</p>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+<script src="product.js"></script>
+<!-- <script src="product.js"></script> -->
+<script src="try.js"></script>
+
+
+</html>

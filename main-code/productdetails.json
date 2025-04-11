@@ -1,0 +1,312 @@
+{
+    "status": "success",
+    "code": 200,
+    "message": "Product details fetched successfully",
+    "products": [
+      {
+        "id": 100,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/_original_imah4h2ey24yffbd-removebg-preview__1_-removebg-preview.png",
+          "../clothes/_original_imah4h2exugwfv74.png",
+          "../clothes/_original_imah4h2eez8symru.png",
+          "../clothes/_original_imah4h2ecgdrzqge.jpg"
+        ],
+        "stock": 25
+      },
+
+      {
+        "id": 101,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/51ipnsCkskL._SY741_.png",
+          "../clothes/51VMpc+RhHL._SY741_.png",
+          "../clothes/61rLoGELOTL._SY741_.png",
+          "../clothes/712GTx78xmL._SY741_.png"
+        ],
+        "stock": 30
+      },      
+      {
+        "id": 102,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/36-bomdt138xl50-666cr-d16-bene-kleed-original-imah7czjaw8avgsz.png",
+          "../clothes/36-bomdt138xl50-666cr-d16-bene-kleed-original-imah7czjyecemzzs.png",
+          "../clothes/36-bomdt138xl50-666cr-d16-bene-kleed-original-imah7czjz42gqubm.png",
+          "../clothes/36-bomdt138xl50-666cr-d16-bene-kleed-original-imah7czjzfdhyknv.png"
+        ],
+        "stock": 30
+      } ,     {
+        "id": 103,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/hghjg-removebg-preview.png",
+          "../clothes/hhhjhj-removebg-preview.png",
+          "../clothes/v_bvv-removebg-preview.png",
+          "../clothes/qwey-removebg-preview.png"
+        ],
+        "stock": 30
+      } ,     {
+        "id": 104,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/611TGu90R-L._SY741_.png",
+          "../clothes/615xtmWrSCL._SY741_.png",
+          "../clothes/61jTlgwRIfL._SY741_.png",
+          "../clothes/717FVCdngjL._SY741_.png"    
+        ],
+        "stock": 30
+      },      {
+        "id": 105,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/xl-myt1198-pink-tribe-original-imah3g37z4ggfafb-removebg-preview.png",
+          "../clothes/xl-myt1198-pink-tribe-original-imah3g373zsnntgq-removebg-preview.png",
+          "../clothes/3xl-myt1269-maaesa-original-imahfmf3fjsvrjka.png",
+          "../clothes/xl-myt1198-pink-tribe-original-imah3g37tfughjmt-removebg-preview.png"
+        ],
+        "stock": 30
+      }  ,    {
+        "id": 106,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/tshirt-4-removebg-preview.png",
+          "../clothes/5xl-mlm-hsr-black-14-manlino-original-imagxuxybavhmk8q.png",
+          "../clothes/jk.jpg",
+          "../clothes/3xl-ab-hsr-black-21-scott-fincher-original-imah8ywfgm3z5pgy.png"
+        ],
+        "stock": 30
+      } ,     {
+        "id": 107,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/iiioio-removebg-preview.png",
+          "../clothes/kkk-removebg-preview.png",
+          "../clothes/uuyy-removebg-preview.png",
+          "../clothes/hggj.jpg"
+        ],
+        "stock": 30
+      } ,     {
+        "id": 108,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/473Wx593H-442600250-black-MODEL6.png",
+          "../clothes/1117Wx1400H-442600250-black-MODEL2.png",
+          "../clothes/1117Wx1400H-442600250-black-MODEL3.png",
+          "../clothes/1117Wx1400H-442600250-black-MODEL.png"
+        ],
+        "stock": 30
+      } ,     {
+        "id": 109,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/81F2IW3LNAL._SY741_.png",
+          "../clothes/71yKeV+0wLL._SY741_.png",
+          "../clothes/71V5gEc8YVL._SY741_.png",
+          "../clothes/71URGw4O-XL._SY741_.png"
+        ],
+        "stock": 30
+      }   ,   {
+        "id": 110,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/a1.jpg",
+          "../clothes/a2.jpg",
+          "../clothes/a3.jpg",
+          "../clothes/a4.jpg"
+        ],
+        "stock": 30
+      }   ,   {
+        "id": 111,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/b1.jpg",
+          "../clothes/b22.jpg",
+          "../clothes/b3.jpg",
+          "../clothes/b4.jpg"
+        ],
+        "stock": 30
+      }   ,   {
+        "id": 112,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/c1.jpg",
+          "../clothes/c2.jpg",
+          "../clothes/c3.jpg",
+          "../clothes/c4.jpg"
+        ],
+        "stock": 30
+      },   {
+        "id": 113,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/d1.jpg",
+          "../clothes/d2.jpg",
+          "../clothes/d3.jpg",
+          "../clothes/d4.jpg"
+        ],
+        "stock": 30
+      },   {
+        "id": 114,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/e1.jpg",
+          "../clothes/e2.jpg",
+          "../clothes/e3.jpg",
+          "../clothes/e4.jpg"
+        ],
+        "stock": 30
+      },   {
+        "id": 115,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/f11.jpg",
+          "../clothes/f2.jpg",
+          "../clothes/f3.jpg",
+          "../clothes/f4.jpg"
+        ],
+        "stock": 30
+      },   {
+        "id": 116,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/g1.jpg",
+          "../clothes/g2.jpg",
+          "../clothes/g3.jpg",
+          "../clothes/g4.jpg"
+        ],
+        "stock": 30
+      },   {
+        "id": 117,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/h1.jpg",
+          "../clothes/h2.jpg",
+          "../clothes/h3.jpg",
+          "../clothes/h4.jpg"
+        ],
+        "stock": 30
+      },   {
+        "id": 118,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/i1.jpg",
+          "../clothes/i2.jpg",
+          "../clothes/i3.jpg",
+          "../clothes/i4.jpg"
+        ],
+        "stock": 30
+      },   {
+        "id": 119,
+        "name": "Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+        "category": "Tshirt",
+        "color":"black",
+        "price": 99.99,
+        "off": 2321,
+        "currency": "USD",
+        "images": [
+          "../clothes/j1.jpg",
+          "../clothes/j2.jpg",
+          "../clothes/j3.jpg",
+          "../clothes/j4.jpg"
+        ],
+        "stock": 30
+      }
+      
+    ]
+}

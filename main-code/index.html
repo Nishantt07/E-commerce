@@ -19,7 +19,10 @@
 
 <body>
 
+
+
     <div class="all-main">
+        <!-- <template id="navbar-template"> -->
         <section class="header-wrapper">
             <header class="header">
                 <div class="header-customer-details-wrapper">
@@ -40,22 +43,33 @@
                 <nav class="navbar">
                     <ul class="unordered-list">
                         <div class="nav-details-1">
-                            <li><a href=""><span>Home</span></a></li>
-                            <li><a href=""><span>Shop</span></a></li>
+                            
+                                <li><a href="index.html"><span>Home</span></a></li>
+                            
+                            <li><a href="shop.html"><span>Shop</span></a></li>
                             <li onmouseenter="toggleMoreOptions()" class="itspageslist">
                                 <a href="" class="realpages"><span>Pages</span>&nbsp;
                                     <i class="fa-solid fa-chevron-down"></i></a>
                                 <div class="hover-lists-div showthedetails">
                                     <ul class="unordered-hover-lists">
+                                        <a href="aboutus.html">
                                         <li><span>About Us</span></li>
-                                        <li><span>FAQ</span></li>
+
+                                        </a>
+                                        <a href="faq.html">
+                                            <li><span>FAQ</span></li>
+
+                                        </a>
+                                        <a href="policy.html">
                                         <li><span>Shipping Policy</span></li>
+
+                                        </a>
                                     </ul>
                                 </div>
 
                             </li>
-                            <li><a href=""><span>Blog</span></a></li>
-                            <li><a href=""><span>Contact</span></a></li>
+
+                            <li><a href="contactus.html"><span>Contact</span></a></li>
                         </div>
 
                         <!-- <div class="hamburger-container-wrapper">
@@ -67,18 +81,23 @@
                     </div> -->
 
                         <div class="nav-details-2">
-                            <li><a href=""><img src="../images/svgviewer-png-output (1).png" alt="Vogency Logo"
-                                        class="image-logo"></a></li>
-                            <li><a href=""><img src="../images/svgviewer-png-output.png" alt="Vogency Logo"
-                                        class="image-logo-new"></a></li>
+                            <a href="index.html">  <li><img src="../images/svgviewer-png-output (1).png" alt="Vogency Logo"
+                                        class="image-logo"></li></a>
+                                        <a href="index.html"><li><img src="../images/svgviewer-png-output.png" alt="Vogency Logo"
+                                        class="image-logo-new"></li></a>
                         </div>
                         <div class="nav-details-3">
                             <div class="search-bar">
                                 <input type="text">
                                 <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
                             </div>
-                            <li><span><i class="fa-regular fa-heart"></i></span></li>
-                            <li><span><i class="fa-solid fa-bag-shopping"></i></span></i></li>
+                            <a href="wishlist.html">
+                                <li><span><i class="fa-regular fa-heart" ></i></span></li>
+                            </a>
+                            
+<a href="cart.html">
+<li><span><i class="fa-solid fa-bag-shopping"></i></span></i></li>
+</a>
                             <li class="">
                                 <div class="hamburg">
                                     <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
@@ -87,17 +106,56 @@
                                 <ul class="unordered-hamburg-lists hidesidehamburg">
                                     <li class="hamburg-listitems first-home">
                                         <a href="" class="itshome"><span class="titlename">Vogency Luxe</span></a>
-                                        <i class="fa-solid fa-xmark fa-xmarkk"></i>
+                                        <i class="fa-solid fa-xmark fa-xmarkk"></i> 
 
                                     </li>
+                                    <a href="index.html">
                                     <li>
-                                        <a href=""><span>Home</span></a>
+                                        <span>Home</span>
                                     </li>
-                                    <li class="hamburg-listitems"><a href=""><span>Shop</span></a></li>
-                                    <li class="hamburg-listitems"><a href=""><span>Pages</span>&nbsp;<i
-                                                class="fa-solid fa-chevron-down"></i></a></li>
+                                </a>
+                                    <li class="hamburg-listitems"><a href="shop.html"><span>Shop</span></a></li>
+                                    <li class="pagesinham" ><span onclick="toggleit()">Pages <i class="fa-solid fa-chevron-down"></i></span>
+
+                                        <ul class="unord pagesinhem">
+                                            <a href="aboutus.html">
+                                                <li><span>About Us</span></li>
+        
+                                                </a>
+                                                <a href="faq.html">
+                                                    <li><span>FAQ</span></li>
+        
+                                                </a>
+                                                <a href="policy.html">
+                                                <li><span>Shipping Policy</span></li>
+
+                                                </a>
+                                        </ul>
+                                    </li>
+
+                                    <!-- <li onclick="toggleMoreOptions()" class="itspageslist hhww">
+                                        <a href="" class="realpages"><span>Pages</span>&nbsp;
+                                            <i class="fa-solid fa-chevron-down"></i></a>
+                                        <div class="hover-lists-div showthedetails">
+                                            <ul class="unordered-hover-lists">
+                                                <a href="aboutus.html">
+                                                <li><span>About Us</span></li>
+        
+                                                </a>
+                                                <a href="faq.html">
+                                                    <li><span>FAQ</span></li>
+        
+                                                </a>
+                                                <a href="policy.html">
+                                                <li><span>Shipping Policy</span></li>
+
+                                                </a>
+                                            </ul>
+                                        </div>
+        
+                                    </li> -->
                                     <li class="hamburg-listitems"><a href=""><span>Blog</span></a></li>
-                                    <li class="hamburg-listitems"><a href=""><span>Contact</span></a></li>
+                                    <li class="hamburg-listitems"><a href="contactus.html"><span>Contact</span></a></li>
 
                                 </ul>
 
@@ -109,6 +167,7 @@
                 </nav>
             </header>
         </section>
+        <!-- </template> -->
 
         <section>
             <div class="landing-page-wrapper">
@@ -222,7 +281,15 @@
                     </div>
                 </div>
                 <div class="featured-single-cloth-container">
-                    <div class="featured-single-cloth">
+
+<a href="product.html?id=100"> 
+                    <div class="featured-single-cloth" id="100" >
+
+                        <div class="wishlist-button" >
+
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="100"></i></h1>
+                        </div>
+                        
                         <div class="clothes-image-div"><img
                                 src="../clothes/_original_imah4h2ey24yffbd-removebg-preview__1_-removebg-preview.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
@@ -240,34 +307,47 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/712GTx78xmL._SY741_.png"
-                                class="Clothes-images" alt="Clothes-Image"></div>
-                        <div>
-                            <h1 class="brand-name">Adidas</h1>
+<a href="product.html?id=101">
+                    
+                        <div class="featured-single-cloth" id="101" >
+                            <div class="wishlist-button" >
+                                <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="101"></i></h1>
+                            </div>
+                            <div class="clothes-image-div">
+                                <img src="../clothes/712GTx78xmL._SY741_.png" class="Clothes-images" alt="Clothes-Image">
+                            </div>
+                            <div>
+                                <h1 class="brand-name">Adidas</h1>
+                            </div>
+                            <div><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div>
+                                <h1 class="cloth-name">Men Tailored Fit Solid Cut Away Collar Casual Shirt</h1>
+                            </div>
+
+                            <div class="cloth-price-cart">
+                                <h1 class="cloth-price">₹99</h1>
+                                <i class="fa-solid fa-cart-shopping cloth-cart"></i>
+                            </div>
                         </div>
-                        <div><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div>
-                            <h1 class="cloth-name">Men Tailored Fit Solid Cut Away Collar Casual Shirt</h1>
+</a>
+                    
+<a href="product.html?id=102">
+                    <div class="featured-single-cloth" id="102">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="100"></i></h1>
                         </div>
 
-                        <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
-                            <i class="fa-solid fa-cart-shopping cloth-cart"></i>
-                        </div>
-                    </div>
-
-                    <div class="featured-single-cloth">
                         <div class="clothes-image-div"><img
                                 src="../clothes/36-bomdt138xl50-666cr-d16-bene-kleed-original-imah7czjz42gqubm.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
@@ -285,15 +365,19 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
 
 
+<a href="product.html?id=103">
 
-
-                    <div class="featured-single-cloth">
+                    <div class="featured-single-cloth" id="103">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="103"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img src="../clothes/hghjg-removebg-preview.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
@@ -310,13 +394,18 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
 
+<a href="product.html?id=104">
 
-                    <div class="featured-single-cloth">
+                    <div class="featured-single-cloth" id="104">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="104"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img src="../clothes/615xtmWrSCL._SY741_.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
@@ -333,12 +422,18 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
+<a href="product.html?id=105">
 
-                    <div class="featured-single-cloth">
+
+                    <div class="featured-single-cloth" id="105">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="105"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img
                                 src="../clothes/3xl-myt1269-maaesa-original-imahfmf3fjsvrjka.png" class="Clothes-images"
                                 alt="Clothes-Image"></div>
@@ -356,14 +451,19 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
 
 
+<a href="product.html?id=106">
 
-                    <div class="featured-single-cloth">
+                    <div class="featured-single-cloth" id="106">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="106"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img
                                 src="../clothes/3xl-ab-hsr-black-21-scott-fincher-original-imah8ywfgm3z5pgy.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
@@ -381,14 +481,19 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+                </a>
 
 
+                <a href="product.html?id=107">
 
-                    <div class="featured-single-cloth">
+                    <div class="featured-single-cloth" id="107">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="107"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img src="../clothes/iiioio-removebg-preview.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
@@ -405,12 +510,18 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+                </a>
 
-                    <div class="featured-single-cloth">
+                <a href="product.html?id=108">
+
+                    <div class="featured-single-cloth" id="108">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="108"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img src="../clothes/1117Wx1400H-442600250-black-MODEL.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
@@ -427,13 +538,19 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+                </a>
 
 
-                    <div class="featured-single-cloth">
+                <a href="product.html?id=109">
+
+                    <div class="featured-single-cloth" id="109">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="109"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img src="../clothes/71URGw4O-XL._SY741_.png"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
@@ -450,12 +567,16 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+                </a>
+
 
         </section>
+
+        
 
 
         <section class="banner-section-div">
@@ -474,14 +595,14 @@
             <div class="scrolling-text-wrapper">
                 <div class="scrolling-text-container">
                     <h1>SIGN UP AND GET 10% OFF &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-star fa-spin-pulse"
-                            style="color: #000000;"></i> &nbsp;&nbsp;&nbsp; FREE DELIVERY FOR ORDER OVER $120
+                            style="color: #000000;"></i> &nbsp;&nbsp;&nbsp; FREE DELIVERY FOR ORDER OVER ₹99
                         &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-star fa-spin-pulse" style="color: #000000;"></i>
                         &nbsp;&nbsp;&nbsp; Enjoy Flat ₹200 Off on Your First Purchase! &nbsp;&nbsp;&nbsp; <i
                             class="fa-solid fa-star fa-spin-pulse" style="color: #000000;"></i> &nbsp;&nbsp;&nbsp; </h1>
 
 
                     <h1>SIGN UP AND GET 10% OFF &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-star fa-spin-pulse"
-                            style="color: #000000;"></i> &nbsp;&nbsp;&nbsp; FREE DELIVERY FOR ORDER OVER $120
+                            style="color: #000000;"></i> &nbsp;&nbsp;&nbsp; FREE DELIVERY FOR ORDER OVER ₹99
                         &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-star fa-spin-pulse" style="color: #000000;"></i>
                         &nbsp;&nbsp;&nbsp; Enjoy Flat ₹200 Off on Your First Purchase!&nbsp;&nbsp;&nbsp; <i
                             class="fa-solid fa-star fa-spin-pulse" style="color: #000000;"></i> &nbsp;&nbsp;&nbsp; </h1>
@@ -507,9 +628,15 @@
                     </div>
                 </div>
                 <div class="featured-single-cloth-container">
-                    <div class="featured-single-cloth">
+
+                    <a href="product.html?id=110">
+                    <div class="featured-single-cloth" id="110">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="110"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img
-                                src="../clothes/m-234-j-turritopsis-original-imagnfwnfstwgtmu-removebg-preview.png"
+                                src="../clothes/a1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -525,13 +652,20 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+                </a>
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/714wGk9H-QL._SY741_.png"
+
+                <a href="product.html?id=111">
+                    <div class="featured-single-cloth" id="111">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="111"></i></h1>
+                        </div>
+                        <div class="clothes-image-div"><img src="../clothes/b1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -547,13 +681,20 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+                </a>
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/61b4EUaIiHL._SY741_.png"
+                <a href="product.html?id=112">
+
+                    <div class="featured-single-cloth" id="112">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="112"></i></h1>
+                        </div>
+                        <div class="clothes-image-div"><img src="../clothes/c1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -569,16 +710,22 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+                </a>
 
 
 
+<a href="product.html?id=113">
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/tradititonalpant.png" class="Clothes-images"
+                    <div class="featured-single-cloth" id="113">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="113"></i></h1>
+                        </div>
+                        <div class="clothes-image-div"><img src="../clothes/d1.jpg" class="Clothes-images"
                                 alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -594,14 +741,22 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
 
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/615xtmWrSCL._SY741_.png"
+<a href="product.html?id=114">
+                
+
+                    <div class="featured-single-cloth" id="114">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="114"></i></h1>
+                        </div>
+                        <div class="clothes-image-div"><img src="../clothes/e1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -617,14 +772,23 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
 
-                    <div class="featured-single-cloth">
+</a>
+
+<a href="product.html?id=115">
+
+
+                    <div class="featured-single-cloth" id="115">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="115"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img
-                                src="../clothes/3xl-myt1269-maaesa-original-imahfmf3fjsvrjka.png" class="Clothes-images"
+                                src="../clothes/f11.jpg" class="Clothes-images"
                                 alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -640,16 +804,22 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
 
 
+<a href="product.html?id=116">
 
-                    <div class="featured-single-cloth">
+                    <div class="featured-single-cloth" id="116">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="116"></i></h1>
+                        </div>
                         <div class="clothes-image-div"><img
-                                src="../clothes/3xl-ab-hsr-black-21-scott-fincher-original-imah8ywfgm3z5pgy.png"
+                                src="../clothes/g1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -665,15 +835,22 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
 
+</a>
+
+<a href="product.html?id=117">
 
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/iiioio-removebg-preview.png"
+                    <div class="featured-single-cloth" id="117">
+
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="117"></i></h1>
+                        </div>
+                        <div class="clothes-image-div"><img src="../clothes/h1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -689,13 +866,20 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+</a>
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/1117Wx1400H-442600250-black-MODEL.png"
+
+<a href="product.html?id=118">
+
+                    <div class="featured-single-cloth" id="118">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="118"></i></h1>
+                        </div>
+                        <div class="clothes-image-div"><img src="../clothes/i1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -711,14 +895,21 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
 
+</a>
 
-                    <div class="featured-single-cloth">
-                        <div class="clothes-image-div"><img src="../clothes/71URGw4O-XL._SY741_.png"
+<a href="product.html?id=119">
+
+
+                    <div class="featured-single-cloth" id="119">
+                        <div class="wishlist-button" >
+                            <h1 ><i class="fa-regular fa-heart fa-heartt " onclick="savethewishlist(event, this)" style="color: #ffffff;" data-id="119"></i></h1>
+                        </div>
+                        <div class="clothes-image-div"><img src="../clothes/j1.jpg"
                                 class="Clothes-images" alt="Clothes-Image"></div>
                         <div>
                             <h1 class="brand-name">Adidas</h1>
@@ -734,10 +925,12 @@
                         </div>
 
                         <div class="cloth-price-cart">
-                            <h1 class="cloth-price">$120</h1>
+                            <h1 class="cloth-price">₹99</h1>
                             <i class="fa-solid fa-cart-shopping cloth-cart"></i>
                         </div>
                     </div>
+
+</a>
 
         </section>
 
@@ -1015,10 +1208,25 @@
             </div>
         </div>
     </section>
+    <!-- <script src="product.js"></script> -->
+
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="product.js"></script>
 
     <script src="try.js"></script>
+
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+

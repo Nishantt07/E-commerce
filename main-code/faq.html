@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="try.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar-container"></div>
+
+      <header class="site-header">
+        <div class="container">
+          <h1>FAQ's</h1>
+        </div>
+      </header>
+    
+      
+
+      
+      <section class="shipping-section">
+        <div class="shipping-container">
+          <!-- LEFT COLUMN: Shipping Info + Accordion -->
+          <div class="shipping-faq">
+            <h2>Shipping information</h2>
+      
+            <!-- 1) First FAQ (opened by default) -->
+            <details open>
+                <summary>
+                  <span class="question-text"><b>What are your shipping options and delivery times?</b></span>
+                  <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                </summary>
+                <div class="answer">
+                  <p>
+                    We offer multiple shipping options to suit your needs: Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Same-Day Delivery (available in select areas). Delivery times may vary based on your location and order processing. Once your order ships, you’ll receive a tracking number via email to monitor its progress.
+                  </p>
+                </div>
+              </details>
+        
+              <!-- 2) Second FAQ (closed by default) -->
+              <details>
+                <summary>
+                  <span class="question-text"><b>What is your return and refund policy?</b></span>
+                  <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                </summary>
+                <div class="answer">
+                  <p>
+                    We accept returns within 30 days of delivery for a full refund or exchange, provided items are unused and in original packaging. To initiate a return, contact our support team with your order number. Shipping costs for returns are covered by the customer unless the item is defective. Refunds are processed within 5-7 business days.
+                  </p>
+                </div>
+              </details>
+        
+              <!-- 3) Third FAQ (closed by default) -->
+              <details>
+                <summary>
+                  <span class="question-text"><b>How can I track my order or contact customer support?</b></span>
+                  <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                </summary>
+                <div class="answer">
+                  <p>
+                    You can track your order using the tracking number provided in your shipping confirmation email, accessible via our website’s “Track Order” page. For customer support, reach us via email at support@yourstore.com or call us at +1-800-555-1234, available Monday to Friday, 9 AM - 5 PM EST.
+                  </p>
+                </div>
+              </details>
+          </div>
+      
+          <!-- RIGHT COLUMN: Hero Image -->
+          <div class="shipping-image">
+            <img 
+              src="../images/faq-2.webp" 
+              alt="Woman checking clothes" 
+            />
+          </div>
+        </div>
+      </section>
+      
+
+      
+
+    <div class="footer-containerr"></div>
+        
+    <footer class="site-footer">
+        <div class="container">
+          <p>&copy; 2025 Your Fashion Brand. All Rights Reserved.</p>
+        </div>
+      </footer>
+    
+</body>
+
+<script>
+    document.querySelectorAll('details').forEach(function(detail) {
+      detail.addEventListener('toggle', function() {
+        const icon = this.querySelector('.toggle-icon i');
+        if (this.open) {
+          icon.classList.remove('fa-plus');
+          icon.classList.add('fa-minus');
+        } else {
+          icon.classList.remove('fa-minus');
+          icon.classList.add('fa-plus');
+        }
+      });
+    });
+  </script>
+
+<script src="product.js"></script>
+<script src="try.js"></script>
+
+</html>
