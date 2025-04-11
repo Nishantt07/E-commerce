@@ -114,7 +114,7 @@ console.log("Product Not Found");
 
                 <div class="safe-checkout">
                     <div>Guaranteed Safe Checkout</div>
-                    <img src="../clothes/[CITYPNG.COM]HD Guaranteed Safe Checkout Payments Badge Icons - 1000x1000.png"
+                    <img src="clothes/[CITYPNG.COM]HD Guaranteed Safe Checkout Payments Badge Icons - 1000x1000.png"
                         alt="" class="safe-checkout-image">
                 </div>
                 <hr>

@@ -364,7 +364,7 @@ width: 100px;
     color: black;
     width: 100%;
 
-    background-image: url(../images/hero4\ \(1\).png);
+    background-image: url(images/hero4\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 59%;
@@ -421,7 +421,7 @@ height: 100%;
     .shop-now {
         margin-top: 20px;
         margin-left: 0px;
-        background-image: url(../images/button.png);
+        background-image: url(images/button.png);
         background-repeat: no-repeat;
         background-size: 216px 60px;
         padding-bottom: 20px;
@@ -453,7 +453,7 @@ height: 100%;
 
 .banner-div-1{
 
-    background-image: url(../images/banner-1.webp);
+    background-image: url(images/banner-1.webp);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -463,7 +463,7 @@ height: 100%;
 }
 .banner-div-2{
 
-    background-image: url(../images/banner-2.webp);
+    background-image: url(images/banner-2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -472,7 +472,7 @@ height: 100%;
 }
 .banner-div-3{
 
-    background-image: url(../images/banner-3.webp);
+    background-image: url(images/banner-3.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -760,7 +760,7 @@ transition: 100ms ease-in-out;
 }
 
 .banner-section-div{
-background-image: url(../clothes/b2.jpg);
+background-image: url(clothes/b2.jpg);
 width: 100%;
 background-position: center;
 height: 300px;
@@ -1025,7 +1025,7 @@ height: 23px;
     position: absolute;
     height: 100px;
     width: 100%;
-background-image: url(../images/ii.png);
+background-image: url(images/ii.png);
 background-color: black;
 background-size: 1550px 100px;
 
